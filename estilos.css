@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0px auto;
+}
+
+div {
+    display: block;
+}
+
+body {
+    color: black;
+    overflow-wrap: break-word;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section.module.parallax h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: 78px;
+    z-index: 50;
+    text-transform: uppercase;
+}
+
+section.module.parallax {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh !important;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+section.module.parallax::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0) 40%, rgb(0, 0, 0) 100%);
+}
+
+section.module.parallax-1{
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/9544968/1200/800/m1/fpnw/wm0/france-paris-louvre-museum-and-the-pyramid-rf9938-v2-.jpg?1607438225&s=3be6937f7469265e37109ac7aaf2d9fc)
+}
+
+
+section.module.content {
+    padding: 40px 0px;
+    background: rgb(236, 231, 213);
+}
+
+section.module:last-child {
+    margin-bottom: 0px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    margin-bottom: 48px;
+    border-bottom: 0.4px solid rgb(0, 0, 0);
+}
+
+.cabecalho-pintura{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(236, 231, 213) ;
+}
