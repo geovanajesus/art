@@ -56,7 +56,9 @@ section.module.parallax-1{
     background-image: url(https://images.creativemarket.com/0.1.0/ps/9544968/1200/800/m1/fpnw/wm0/france-paris-louvre-museum-and-the-pyramid-rf9938-v2-.jpg?1607438225&s=3be6937f7469265e37109ac7aaf2d9fc)
 }
 
-
+section.module.parallax-2{
+    background-image: url(https://www.360meridianos.com/wp-content/uploads/2015/06/MoMA-NYC.jpg)
+}
 section.module.content {
     padding: 40px 0px;
     background: rgb(236, 231, 213);
@@ -80,4 +82,13 @@ section.module:last-child {
     justify-content:space-around;
     align-items:center;
     background-color: rgb(236, 231, 213) ;
+    align-items:stretch ;
+}
+
+section.module.parallax-3{
+    background-image: url(https://arteatevoce.com/wp-content/uploads/2019/07/monalisa.jpg)
+}
+
+section.module.parallax-4{
+    background-image: url(https://s2.glbimg.com/6t2NvsAnnMZ1SbKlnYExzkSqUP4=/smart/e.glbimg.com/og/ed/f/original/2021/02/23/quadro_o_grito.jpg)
 }
